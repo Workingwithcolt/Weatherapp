@@ -67,32 +67,32 @@ function App() {
           </div>
           <div>
           <div className='co'>
-            {c == null ? 0 : c.clouds.all}%
+            {c === null ? 0 : c.clouds.all}%
           </div>
           <div className='co'>
-            {c == null ? 0 :c.main.humidity}%
+            {c === null ? 0 :c.main.humidity}%
           </div>
           <div className='co'>
-            {c == null ? 0 :c.wind.speed}km/h            
+            {c === null ? 0 :c.wind.speed}km/h            
           </div>
           </div>
           </div>
         </div>
         <div className="location">
           <div className='temprature co'>
-            {~~(c==null ? 0 : c.main.temp-273.15)}
+            {~~(c===null ? 0 : c.main.temp-273.15)}
           </div>
           <div className='location_at'>
             <h1>{city}</h1>
             <div className='date'>
               <div className='all_date'>
-                {time == ""? "08:45" :time}
+                {time === ""? "08:45" :time}
               </div>
               <div className='all_date'>
-                {day == ""?"Thursday" : day}
+                {day === ""?"Thursday" : day}
               </div>
               <div className='all_date'>
-                {date == "" ? "09/03/2023":date}
+                {date === "" ? "09/03/2023":date}
               </div>
             </div>
           </div>
