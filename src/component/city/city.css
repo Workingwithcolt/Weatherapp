@@ -1,0 +1,33 @@
+.contain{
+    display:grid;
+    grid-template-rows: 10rem 5rem;
+    gap: 2rem;
+    row-gap: 2rem;
+    background-color: rgb(164, 155, 146);
+    border-radius: 1rem;
+}
+.condition span{
+    z-index:1;
+    position:relative;
+    top:-2rem;
+    left:2rem;
+    /* bottom:5rem; */
+    font-weight: bold;
+}
+.condition img{
+    z-index: 2;
+    border-radius: 0.2rem;
+}
+.info{
+    padding-left:7px;
+    margin-top: 10px;
+    display:grid;
+    grid-template-columns: 50px 90px;
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    /* background-color: rebeccapurple; */
+    gap:4rem;
+}
+.temprature_{
+    font-size: 2.7rem;
+}
